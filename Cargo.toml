@@ -1,0 +1,21 @@
+[package]
+name = "rtdlib-sys"
+version = "0.1.0"
+authors = ["fewensa <fewensa@protonmail.com>"]
+description = "td binding"
+homepage = "https://github.com/fewensa/rtdlib-sys"
+repository = "https://github.com/fewensa/rtdlib-sys"
+license = "MIT"
+keywords = ["tdlib", "telegram", "bindings"]
+categories = ["api-bindings"]
+include = [
+  "Cargo.toml",
+  "**/*.rs",
+  "README.md",
+  "LICENSE"
+]
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
+libc = "0.2"
